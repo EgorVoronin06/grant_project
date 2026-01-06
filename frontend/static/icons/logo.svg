@@ -1,0 +1,35 @@
+<svg width="220" height="50" viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<!-- Иконка руки (синяя, стилизованная рука с тремя концентрическими линиями) -->
+	<g id="hand-icon">
+		<!-- Внешняя U-образная линия -->
+		<path d="M8 30 C8 12, 20 8, 28 12 C36 16, 38 24, 36 32 C34 40, 24 42, 16 38 C8 34, 6 28, 8 30 Z" 
+			stroke="#0077FF" 
+			stroke-width="2.5" 
+			fill="none" 
+			stroke-linecap="round" 
+			stroke-linejoin="round"/>
+		<!-- Средняя U-образная линия -->
+		<path d="M10 30 C10 18, 19 15, 25 18 C31 21, 32 26, 31 32 C30 38, 22 39, 16 36 C10 33, 9 29, 10 30 Z" 
+			stroke="#0077FF" 
+			stroke-width="2.5" 
+			fill="none" 
+			stroke-linecap="round" 
+			stroke-linejoin="round"/>
+		<!-- Внутренняя U-образная линия -->
+		<path d="M12 30 C12 22, 18 20, 22 22 C26 24, 27 28, 26 31 C25 34, 20 35, 16 33 C12 31, 11 29, 12 30 Z" 
+			stroke="#0077FF" 
+			stroke-width="2.5" 
+			fill="none" 
+			stroke-linecap="round" 
+			stroke-linejoin="round"/>
+	</g>
+	
+	<!-- Текст "месторождение жестов" -->
+	<g id="text" font-family="'Inter', 'Arial', sans-serif" font-weight="bold">
+		<!-- Первая строка "месторождение" (темно-серая) -->
+		<text x="45" y="20" font-size="13" fill="#4A4A4A" font-weight="700">месторождение</text>
+		<!-- Вторая строка "жестов" (синяя) -->
+		<text x="45" y="38" font-size="13" fill="#0077FF" font-weight="700">жестов</text>
+	</g>
+</svg>
+

@@ -1,0 +1,14 @@
+@import url('./global.css');
+@import url('./animations.css');
+body {
+	font-family: 'Inter', sans-serif;
+}
+:root {
+	--color-primary: #0077FF;
+	--color-primary-transparent: rgba(0, 119, 255, 0.37);
+	--color-primary-lighter: rgba(0, 119, 255, 0.8);
+	--color-dark: #393939;
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--color-grey: #f3f6ff;
+}

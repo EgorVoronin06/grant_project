@@ -1,0 +1,27 @@
+{
+  "name": "grant_project",
+  "version": "1.0.0",
+  "description": "Платформа обучения языку жестов с использованием AI и распознавания жестов",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run build && npm run preview"
+  },
+  "keywords": [
+    "sign-language",
+    "education",
+    "ai",
+    "gesture-recognition"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
